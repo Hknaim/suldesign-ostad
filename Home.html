@@ -52,6 +52,24 @@
         .about-text .blue-text {
             color: #17a2b8;
         }
+        .projects-section {
+            background: url('doodle-background.png') no-repeat center center;
+            background-size: cover;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .projects-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .projects-section .filter-buttons .btn {
+            margin: 5px;
+            border-radius: 20px;
+        }
+        .project-gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
@@ -100,6 +118,21 @@
                 <img src="https://i.postimg.cc/7hd6z8nL/doodle-items-removebg-preview.png" alt="Illustration of a designer" class="img-fluid"
                     style="max-width: 450px;">
             </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <h2>My Recent <span class="blue-text">Works</span></h2>
+        <div class="filter-buttons my-4">
+            <button class="btn btn-info text-dark">All</button>
+            <button class="btn btn-secondary">UI</button>
+            <button class="btn btn-secondary">UX</button>
+            <button class="btn btn-secondary">Web Design</button>
+        </div>
+        <div class="container project-gallery d-flex justify-content-center flex-wrap gap-4">
+            <img src="project1.png" alt="Project 1" class="img-fluid">
+            <img src="project2.png" alt="Project 2" class="img-fluid">
+            <img src="project3.png" alt="Project 3" class="img-fluid">
         </div>
     </section>
 
